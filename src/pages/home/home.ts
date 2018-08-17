@@ -23,13 +23,13 @@ export class HomePage {
   public IMGUR_ENDPOINT:string = "https://api.imgur.com/3/image";
 
   //imgur client ID for authenticate and access our account 
-  public IMGUR_CLIENT_ID:string = "3334becfd3e907c";
+  public IMGUR_CLIENT_ID:string = "YOUR_IMGUR_CLIENT_ID";
 
   //Endpoint for analyse image using Microsoft Azure
   // public AZURE_ENDPOINT:string = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0";
   public AZURE_ENDPOINT:string = "https://centralindia.api.cognitive.microsoft.com/face/v1.0";
   //Azure face API key
-  public AZURE_API_KEY:string = "674d4ec1cdd54ad5a980902ed14d4bff";
+  public AZURE_API_KEY:string = "YOUR_AZURE_API_KEY_HERE";
 
   //camera options
   private options:CameraOptions = {
